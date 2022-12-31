@@ -26,5 +26,5 @@ admin.messaging().sendToDevice(registrationToken, payload, options)
     console.log('successfully sent message ', response)
 })
 .catch( err => {
-    console.log('error occured ', error)
+    console.log('error occured ', err)
 })
